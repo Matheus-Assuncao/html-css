@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 10px;
+        }
+
+        header{
+            padding: 10px;
+            background-color: lightgray;
+            border-style: solid;
+            border-color: black;
+            margin-bottom: 10px;
+        }
+
+        nav{
+            background-color: rgba(105, 105, 105, 0.34);
+            text-decoration: none;
+            color: blue;
+            box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.242);
+            
+        }
+
+        nav > a{
+            color: black;
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: white;
+        }
+
+
+        main{
+            background-color: lightgray;
+            padding-left: 10px;
+            padding-right: 20px;
+            border-style: solid;
+            border-color: black;
+            margin-bottom: 10px;
+            border-radius: 20px;
+        }
+
+        main > #Assuntos{
+            background-color: aliceblue;
+        }
+
+        footer{
+            background-color: black;
+            padding: 4px;
+        }
+
+        footer > p{
+            color: white;
+            text-align: center;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <h2>Esportes</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt atque deleniti ut cupiditate maiores aliquid ducimus error quia facilis libero unde, aut fugit iste hic, eum nihil praesentium modi omnis!</p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticia do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio iste labore laudantium. Officia esse id tempore architecto sit praesentium nisi ut error pariatur suscipit in, delectus nesciunt dignissimos alias doloremque!</p>
+                <aside>
+                    <p>Artigo Escrito pelo html</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Matheus Assunção</p>
+    </footer>
+</body>
+</html>
